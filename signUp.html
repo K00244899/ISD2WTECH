@@ -1,0 +1,94 @@
+<DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="index.css">
+        <script src="https://kit.fontawesome.com/90684e02cc.js" crossorigin="anonymous"></script>
+        <title>Fine Feather/signUp</title>
+        <style>body{background-image: url(images/heroImage.jpeg);}</style>
+    </head>
+    <body>
+       
+        <div class="headerWrap" style="background-color: black;">
+            <nav>
+                <input type="checkbox" id="check">
+                    <label for="check">
+                        <i class="fas fa-bars" id="btn"></i>
+                        <i class="fas fa-times" id="cancel"></i>
+        
+                    </label>
+                <a href="index1.html"><img src="images/logo102.png" alt="logo with name"></a>
+                <ul>
+                    <li><input type="text" name="box" placeholder="Search in this site...">  
+            
+                        <a href="#"> <i class="fas fa-search"></i></a> 
+                    </li>
+                    <li><a href="index1.html">Home</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="bmi.html">BMI Calculator</a></li>
+                    <li><a href="login.html"><i class="fas fa-user-plus"></i></a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="sign_up">
+            <img src="images/user.png" alt="">
+            <h1>Sign Up now</h1>
+            <form onsubmit="return validate()" method="GET" action="index.html">
+                <input type="text" id="fname" placeholder="Your Name">
+                <input type="email" id="email" placeholder="Your Email">
+                <input type="password" id="pword" placeholder="Your Password">
+                <input type="password" id="repword" placeholder="Retype your Password">
+                <input type="password" id="mob" placeholder="Enter your Mobile No.">
+                <p><span><input type="checkbox" id="ckbox"></span> Agree to the terms of services</p>
+                <button type="submit" id="su_button">Sign Up</button>
+            </form>
+
+        </div>
+       
+    
+        <footer class="footerSec">
+            <div class="footer_left">
+                <!-- <h3>fF<span>Fine Feather</span></h1> -->
+                   <img src="images/logo102.png" alt="">
+                <div class="footer_links">
+                    <a href="#" class="link1">Home</a>
+                    <a href="#">Pricing</a>
+                    <a href="#">About Us</a>
+                    <a href="#">Contact Us</a>
+                </div>
+                   <p class="footer_company">
+                       Fine Feather @ 2020
+                   </p>
+            </div>
+            <div class="footer_centre">
+                <div>
+                   <i class="fas fa-map-marker-alt"></i>
+                   <p><span>149-Evanwood,GL Road, Castletroy, Ireland</span></p>
+                </div>
+                <div>
+                   <i class="fas fa-phone-square"></i>
+                   <p>00353-892287878</p>
+                </div>
+                <div>
+                   <i class="far fa-envelope-open"></i>
+                   <p><a href="mailto:K00244899@student.lit.ie">k00244899@student.lit.ie</a></p>
+                </div>             
+            </div>
+            <div class="footer_right">
+                <p class="footer_comp_about">
+                    <span>About Us</span>
+                    Fine Feather is a weight loss site that provides access to a health coach and a
+                     personalized weight loss plan.
+                </p>
+                <div class="footer_social">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-github-square"></i></a>
+                </div>
+            </div>
+        </footer>
+         <script src="signUp.js" ></script> 
+    </body>
+    </html>
