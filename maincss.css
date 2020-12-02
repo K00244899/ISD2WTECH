@@ -81,7 +81,7 @@ label #cancel {color: white;
     height: 60px;
 }          
 .container h2{float: left;
-                margin-left: 160px;
+                margin-left: 115px;
             margin-top: 20px;}
 .container form {float: right;
         margin-right: 120px;
@@ -526,34 +526,29 @@ label #cancel {color: white;
     height: 350px;
     padding-top: 40px;
     width:500px ;
-    padding-left: 200px;
+   margin-left: auto;
+   margin-right: auto;
     background-image: url(images/login.jpg);
     margin-top: 40px;
     margin-bottom: 40px;
     color: white;
-    margin-left: 350px; 
+    /* margin-left: 350px;  */
      border-radius: 10px;   
   
    
         
        
             } 
-.formwra1{
+ .formLi{
+     margin-left: 80px;
+    
+ }           
 
-                height: 350px;
-                padding-top: 40px;
-                width:500px ;
-                padding-left: 100px;
-                margin-top: 20px;
-                margin-bottom: 40px;
-                color: white;
-                 margin-left: 350px;
-                 border-radius: 10px;  
-             }            
-.formwra p{text-align: left;} 
+.formwra p{text-align: left;
+            margin-left: 40px;} 
 .formwra #email{width: 300px;}
 .formwra1 #email{width: 300px;}
-.fa-user-tie,.fa-lock,.fa-eye  {color: green;
+.formwra .fa-user-tie,.fa-lock,.fa-eye  {color: green;
                                 font-size: 25px;}         
 #loginBtn {background-color: green;
             height: 40px;
